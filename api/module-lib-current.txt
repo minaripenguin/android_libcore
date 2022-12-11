@@ -314,6 +314,7 @@ package dalvik.system {
     method public void clearGrowthLimit();
     method public static String getCurrentInstructionSet();
     method public static String getInstructionSet(String);
+    method public static long getNativeFunctionPtr(String, int);
     method public static dalvik.system.VMRuntime getRuntime();
     method public int getTargetSdkVersion();
     method @dalvik.annotation.optimization.FastNative public boolean is64Bit();
